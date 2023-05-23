@@ -7,11 +7,12 @@
   let isLoading = true;
 
   onMount(() => {
-    setTimeout(loading, 3000);
-    function loading() {
-      if (document.readyState === 'complete') {
-      isLoading = false; // Set isLoading to false if the page has already finished loading
+    if (document.readyState === 'complete') {
+      setTimeout(setIsLoading, 3000); // Set isLoading to false if the page has already finished loading
     }
+
+    function setIsLoading() {
+      isLoading = false;
     }
   });
 </script>
