@@ -21,23 +21,25 @@
   <Loading/>
 {:else}
   <div class="mainpage min-h-screen">
-    <Header class='Header'/>
-    <div class="flex flex-col items-center justify-center flex-1 relative z-20">
-      <div class="relative mt-[20%] z-10 flex flex-col justify-center items-center gap-[20px]">
-        <h1 class="text-white text-[60px] z-10">NO ALPHA HERE</h1>
-        <button class="bg-white w-[200px] h-[50px] z-10">MINT NOW</button>
-        <img class="absolute w-[30vw] grey-image z-0" src="nah-logo.png" alt="background" draggable="false" />
+    <div id="landingpage" class="flex flex-col z-50">
+      <Header />
+      <div class="flex flex-col items-center justify-center flex-1">
+        <img class="grey-image w-[30vw] absolute" src="nah-logo.png" alt="background" draggable="false" />
+        <div class="flex flex-col items-center justify-center gap-[20px]">
+          <h1 class="text-white text-[60px] z-10">NO ALPHA HERE</h1>
+          <button class="bg-white w-[200px] h-[50px] z-10">MINT NOW</button>
+        </div>
       </div>
-      <p class="text-white mt-[16%]">Explore the NAHVERSE</p>
     </div>
+    <p class="text-white text-center">Explore the NAHVERSE</p>
     <Footer />
   </div>
 {/if}
 
 <style>
-  .mainpage {
-    background-image: url('/nah-bg.jpeg');
-    min-height: 100vh;
+#landingpage {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/nah-bg.jpeg');
+    min-height: 95vh;
     height: 100%;
     background-position: center;
     background-size: cover;
