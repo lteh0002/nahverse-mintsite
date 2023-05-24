@@ -8,10 +8,10 @@
 
   onMount(() => {
     if (document.readyState === 'complete') {
-      setTimeout(setIsLoading, 3000); // Set isLoading to false if the page has already finished loading
+      setTimeout(setIsLoading, 2000); // Set isLoading to false if the page has already finished loading
     } else {
       window.addEventListener('load', () => {
-        isLoading = false; // Set isLoading to false when the page has finished loading
+        setTimeout(setIsLoading, 2000); // Set isLoading to false when the page has finished loading
       });
     }
 
