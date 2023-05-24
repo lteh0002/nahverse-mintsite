@@ -8,7 +8,7 @@
 
   onMount(() => {
     if (document.readyState === 'complete') {
-      setTimeout(setIsLoading, 1000); // Set isLoading to false if the page has already finished loading
+      setIsLoading(); // Set isLoading to false if the page has already finished loading
     }
 
     function setIsLoading() {
