@@ -9,6 +9,10 @@
   onMount(() => {
     if (document.readyState === 'complete') {
       setIsLoading(); // Set isLoading to false if the page has already finished loading
+    } else {
+      window.addEventListener('load', () => {
+        isLoading = false; // Set isLoading to false when the page has finished loading
+      });
     }
 
     function setIsLoading() {
