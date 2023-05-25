@@ -10,5 +10,7 @@ html, body {
   min-width: 100vw;
   min-height: 100vh;
   overflow-x: hidden;
-  background-color: black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/nah-bg.jpeg');
+  background-position: center;
+  background-size: cover;
 }

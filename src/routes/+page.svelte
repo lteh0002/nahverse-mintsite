@@ -42,11 +42,8 @@
 
 <style>
 #landingpage {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/nah-bg.jpeg');
-    min-height: 95vh;
+    min-height: 100vh;
     height: 100%;
-    background-position: center;
-    background-size: cover;
   }
 
   .grey-image {
