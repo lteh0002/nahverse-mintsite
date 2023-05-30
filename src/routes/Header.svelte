@@ -1,10 +1,10 @@
 <header class="header flex justify-around items-center w-full h-[100px]">
   <ul class="flex items-center gap-[100px]">
-    <li class="text-[16px] font-bold"><a href="/">Home</a></li>
+    <li class="text-[16px] font-bold"><a href="/about">About</a></li>
     <li class="text-[16px] font-bold"><a href="/genesis">Genesis</a></li>
     <li class="text-[16px] font-bold">Gallery</li>
     <li class="w-[60px]">
-      <img src="nah-logo.png" alt="">
+     <a href="/"><img src="nah-logo.png" alt=""></a> 
     </li>
     <li class="text-[16px] font-bold">FAQ's</li>
     <li class="text-[16px] font-bold">Mint</li>

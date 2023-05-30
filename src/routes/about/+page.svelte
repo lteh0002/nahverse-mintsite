@@ -5,8 +5,8 @@
 
 <Header />
 <div class="flex flex-col items-center mt-[60px]">
-  <p class="text-[24px] text-white">Definitely No Alpha Here</p>
-  <h1 class="text-[60px] text-white">NAH GENESIS PASS</h1>
+  <p class="text-[24px] text-white">What is NAH?</p>
+  <h1 class="text-[60px] text-white">ABOUT US</h1>
   <svg width="411" height="15" viewBox="0 0 411 15" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g clip-path="url(#clip0_17_119)">
     <path d="M121.219 6.865C115.443 6.71912 109.668 6.65047 103.902 6.58182C92.3513 6.46168 80.8095 6.66763 69.2677 6.77061L34.6339 7.05379L0 7.40562V7.59441L34.6339 7.97198L69.2677 8.25516C80.8095 8.34956 92.3513 8.56409 103.902 8.43537C109.668 8.3753 115.443 8.30665 121.219 8.15219L129.877 7.92907C132.76 7.81752 135.644 7.74029 138.535 7.59441V7.40562C135.644 7.25974 132.76 7.18251 129.877 7.07095L121.219 6.865Z" fill="white"/>
@@ -25,26 +25,23 @@
     </clipPath>
     </defs>
     </svg>
-  <img class="pt-[60px]" width="800px" height="400px" src="/nah-card.png" alt="">
+    
 </div>
 
 <div class="text-white text-[24px] text-center flex flex-col items-center mt-[60px] gap-[20px] mb-[40px]">
   <p class="max-w-[70vw]">
-    NAH Genesis Pass is the first/genesis collection of NAH Ecosystem and it was sold via privately to the OGs/early supporters of NAH and through WL mechanism.
+  NAH is an Exclusive Collective containing some of the highest-level enthusiasts in the Web3 space , offering members high level opportunities which profited members hundreds and thousands of dollars since February of 2022.
   </p>
   <p class="max-w-[70vw]">
-    Holders of NAH Genesis Pass are the Honorary members of NAH ecosystem.
+    NAH stands for No Alpha Here, which was named by means of sarcasm / irony to what actually happening inside which was primarily providing alphas / educating the members. NAH has proven to be well connected in this space and collaborated with many respected communities before the official launch.
   </p>
   <p class="max-w-[70vw]">
-    NAH Genesis Pass holders will be given voting rights and able to put forward proposals on the direction of the project and allocation of funds.
-  </p>
-  <p class="max-w-[70vw]">
-    The Genesis Pass Holders will be rewarded/benefited with. (redacted)
+    <span class="font-bold text-[30px]">NAH Genesis Pass</span> will be launched as the first collection of NAH Ecosystem, the core community members have the voting rights on the direction of NAH and are the leaders to the next phase which will be called the <span class="text-[30px] font-bold">NAHVERSE</span>.
   </p>
 </div>
 
 <div class="flex gap-[60px] justify-center mb-[80px]">
-  <button class="bg-white w-[200px] h-[50px] z-10">FAQ's</button>
+  <button class="bg-white w-[200px] h-[50px] z-10">GENESIS PASS</button>
   <button class="bg-white w-[200px] h-[50px] z-10">MINT NOW</button>
 </div>
 <Footer/>
